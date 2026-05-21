@@ -8,7 +8,7 @@ Für Fragen zu Dokumentation, internen Wikis und technischem Support wenden Sie 
 
 ## GitHub und Repository-Zugang
 
-- **Neuer Zugang / Berechtigungen:** Issue mit Vorlage „Zugang & Berechtigungen“ im betreffenden Repository oder in [artaker/.github](https://github.com/artaker/.github/issues)
+- **Neuer Zugang / Berechtigungen:** Issue mit Vorlage „Task“ (Kategorie „Zugang & Berechtigungen“) im betreffenden Repository oder in [artaker/.github](https://github.com/artaker/.github/issues)
 - **Org-Richtlinien:** [ARTAKER.md](ARTAKER.md)
 
 ## Sicherheit

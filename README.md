@@ -40,7 +40,7 @@ GitHub wendet Dateien aus diesem Repo als **Organisations-Defaults** an, sofern 
 
 | Pfad | Funktion |
 |------|----------|
-| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Bug, Feature, Zugang & Berechtigungen (Labels: `bug`, `feature`, `zugang`) |
+| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Task, Bug, Feature (Labels: `task`, `bug`, `feature`) |
 | [`.github/pull_request_template.md`](.github/pull_request_template.md) | Standard-PR-Vorlage |
 | [`.github/ISSUE_TEMPLATE/config.yml`](.github/ISSUE_TEMPLATE/config.yml) | Issue-Chooser, Links zu Security/Support |
 
