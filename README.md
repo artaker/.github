@@ -2,7 +2,7 @@
 
 **Community Health Files und Org-Vorlagen** für die GitHub-Organisation [Artaker IT Group](https://github.com/artaker).
 
-Dieses Repository ist **öffentlich**, enthält aber **keinen Anwendungs- oder Kundencode**. Es dient als zentrale Stelle für Richtlinien, Vorlagen und das öffentliche Org-Profil — analog zu `github/.github`, `microsoft/.github` oder ausführlicher `docker/.github`.
+Dieses Repository ist **öffentlich**, enthält aber **keinen Anwendungs- oder Kundencode**. Es dient als zentrale Stelle für Richtlinien, Vorlagen und das öffentliche Org-Profil.
 
 > **Außenauftritt:** Das Marketing-Profil der Organisation steht in [`profile/README.md`](profile/README.md) und erscheint auf https://github.com/artaker — nicht in dieser Root-`README.md`.
 
@@ -66,17 +66,6 @@ Vor breiter Nutzung der Issue-Templates in der Org:
 1. **Labels** in der Organisation anlegen: `bug`, `enhancement`, `access`
 2. **Einladungen** offener Mitglieder annehmen → [`CODEOWNERS`](CODEOWNERS) mit echten `@artaker/<handle>` ergänzen
 3. **Reviews:** `profile/README.md` (Sales/Marketing), `SECURITY.md` (Security Officer)
-
-## Vergleich mit anderen Organisationen
-
-| Organisation | Root-`README` | Profil-`README` |
-|--------------|---------------|-----------------|
-| [github/.github](https://github.com/github/.github) | ~3 Zeilen, nur Verweis auf Docs | Ausführlich, Community/OSS |
-| [microsoft/.github](https://github.com/microsoft/.github) | ~2 Zeilen | Separates Profil |
-| [docker/.github](https://github.com/docker/.github) | Strukturiert, Was/Wozu/Learn more | Mission & Projekte |
-| **artaker/.github** | Maintainer-Hub (dieses File) | Marketing & Leistungen |
-
-Für **interne IT-Dienstleister** ist ein **schlankes Root-README + ausführliches `profile/README`** üblich und sinnvoll: Wer das Repo direkt öffnet, braucht Betriebsinfos; wer die Org besucht, sieht das Firmenprofil.
 
 ## Kontakt
 
