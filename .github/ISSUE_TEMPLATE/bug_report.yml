@@ -1,0 +1,60 @@
+name: Fehler melden
+description: Einen Fehler oder Defekt dokumentieren
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bitte keine Sicherheitslücken hier melden — siehe [SECURITY.md](https://github.com/artaker/.github/blob/main/SECURITY.md).
+  - type: input
+    id: repository
+    attributes:
+      label: Betroffenes Repository
+      placeholder: z. B. artaker/kundenprojekt-xyz
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priorität
+      options:
+        - Niedrig
+        - Mittel
+        - Hoch
+        - Kritisch
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Umgebung
+      placeholder: z. B. Produktion, Test, lokal
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zur Reproduktion
+      placeholder: 1. … 2. … 3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Screenshots
+      description: Keine Passwörter oder personenbezogenen Kundendaten anhängen
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sicherheitsmeldung
+    url: https://github.com/artaker/.github/blob/main/SECURITY.md
+    about: Bitte keine Security-Issues — siehe SECURITY.md (compliance@artaker.it)
+  - name: Support / Dokumentation
+    url: https://github.com/artaker/.github/blob/main/SUPPORT.md
+    about: docbee@artaker.it und interne Kanäle

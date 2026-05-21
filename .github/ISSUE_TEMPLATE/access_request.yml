@@ -1,0 +1,54 @@
+name: Zugang & Berechtigungen
+description: GitHub-Org-Zugang, Repo- oder Team-Berechtigung
+title: "[Zugang]: "
+labels: ["access"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Zugänge werden nur nach internem Freigabeprozess vergeben. Manager-Genehmigung erforderlich.
+  - type: input
+    id: github_user
+    attributes:
+      label: GitHub-Benutzername
+      placeholder: z. B. vorname-nachname
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Geschäftliche E-Mail
+      placeholder: name@artaker.it
+    validations:
+      required: true
+  - type: textarea
+    id: repos_teams
+    attributes:
+      label: Benötigte Repositories / Teams
+      placeholder: Repo-Namen, Rolle (read/write/admin), Team-Slugs
+    validations:
+      required: true
+  - type: input
+    id: manager
+    attributes:
+      label: Genehmigung durch (Name / Rolle)
+    validations:
+      required: true
+  - type: dropdown
+    id: access_type
+    attributes:
+      label: Art des Zugangs
+      options:
+        - Neues Org-Mitglied
+        - Zusätzliches Repository
+        - Team-Mitgliedschaft
+        - Externer Kollaborator (Kunde/Lieferant)
+        - Sonstiges
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Begründung / Projektbezug
+    validations:
+      required: true

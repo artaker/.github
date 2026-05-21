@@ -1,0 +1,41 @@
+# ARTAKER — GitHub-Organisation
+
+Richtlinien für die Nutzung der GitHub-Organisation **artaker** ([github.com/artaker](https://github.com/artaker)).
+
+## E-Mail im GitHub-Profil
+
+Mitarbeiter mit Org-Zugang verwenden **@artaker.it** als **primary email** im GitHub-Profil (entsprechend der verifizierten Domain `artaker.it`).
+
+## Repository-Sichtbarkeit
+
+- Standard: **private** Repositories
+- **Keine** Umstellung auf `public` und **keine** neuen öffentlichen Repositories ohne Freigabe durch Org-Owner
+- Nur Org-Owner dürfen Repositories erstellen, löschen, transferieren oder die Sichtbarkeit ändern (Org-Hardening)
+
+## Issues und Pull Requests
+
+- Nutzen Sie die Issue- und PR-Vorlagen der Organisation, sofern im Repository keine eigenen Templates hinterlegt sind
+- Sicherheitsprobleme: [SECURITY.md](SECURITY.md) — **keine** öffentlichen Security-Issues
+- Verhalten und Eskalation: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+
+## Teams und CODEOWNERS
+
+- GitHub-Teams werden strukturiert angelegt (Rollout in weiteren Wellen)
+- `CODEOWNERS` in diesem Repository gilt **nur** für `artaker/.github`
+- Org-weite CODEOWNERS-Defaults für Projekt-Repos: geplant über Repository-Templates (Welle 2)
+
+## Verifizierte Domains
+
+Auf GitHub verifiziert u. a.: `artaker.it`, `zelmion.com`. Weitere Domains nur nach Abstimmung mit IT/Security.
+
+## Member-Onboarding
+
+Detailliertes Onboarding (Kanäle, interne Links, Checklisten) ist für ein separates Repository **`.github-private`** vorgesehen.
+
+## Ansprechpartner
+
+| Thema | Kontakt |
+|-------|---------|
+| Sicherheit / Compliance | compliance@artaker.it |
+| Support / Doku | docbee@artaker.it |
+| Org-Owner | GitHub-Org-Owners der Organisation `artaker` |

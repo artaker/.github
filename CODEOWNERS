@@ -1,0 +1,12 @@
+# CODEOWNERS für artaker/.github
+# https://docs.github.com/de/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+* @artaker/mboeck001
+
+SECURITY.md @artaker/mboeck001
+# TODO nach Einladungs-Annahme: @artaker/<raphael-kury-handle>
+
+profile/README.md @artaker/mboeck001
+# TODO nach Einladungs-Annahme: @artaker/<manuel-wissel-handle> (inhaltliche Abnahme Sales/Marketing)
+
+ARTAKER.md @artaker/mboeck001 @artaker/RomanHAIT

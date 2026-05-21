@@ -1,0 +1,39 @@
+name: Feature / Anforderung
+description: Neue Funktion oder Änderungswunsch
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Ziel-Repository
+      placeholder: z. B. artaker/internes-tool
+    validations:
+      required: true
+  - type: input
+    id: business_unit
+    attributes:
+      label: Business Unit / Team
+      placeholder: z. B. Application Services, Infrastructure, SAP
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Ziel
+      description: Welches Problem soll gelöst werden?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Vorgeschlagene Lösung
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Akzeptanzkriterien
+      placeholder: "- [ ] …"
+    validations:
+      required: true
