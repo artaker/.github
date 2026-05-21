@@ -40,8 +40,8 @@ GitHub wendet Dateien aus diesem Repo als **Organisations-Defaults** an, sofern 
 
 | Pfad | Funktion |
 |------|----------|
-| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Bug, Feature, Zugang & Berechtigungen |
-| [`.github/pull_request_template.md`](.github/pull_request_template.md) | Standard-PR-Checkliste |
+| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Bug, Feature, Zugang & Berechtigungen (Labels: `bug`, `feature`, `zugang`) |
+| [`.github/pull_request_template.md`](.github/pull_request_template.md) | Standard-PR-Vorlage |
 | [`.github/ISSUE_TEMPLATE/config.yml`](.github/ISSUE_TEMPLATE/config.yml) | Issue-Chooser, Links zu Security/Support |
 
 ### Governance (nur dieses Repo)
@@ -58,14 +58,6 @@ GitHub wendet Dateien aus diesem Repo als **Organisations-Defaults** an, sofern 
 - **Kein Open Source** als Standard; öffentliche Repos nur mit Owner-Freigabe ([`ARTAKER.md`](ARTAKER.md))
 - **Sicherheit:** keine Security-Issues — siehe [`SECURITY.md`](SECURITY.md)
 - **Profil-E-Mail:** Mitarbeiter mit `@artaker.it` als primary email auf GitHub
-
-## Maintainer-Checkliste
-
-Vor breiter Nutzung der Issue-Templates in der Org:
-
-1. **Labels** in der Organisation anlegen: `bug`, `enhancement`, `access`
-2. **Einladungen** offener Mitglieder annehmen → [`CODEOWNERS`](CODEOWNERS) mit echten `@artaker/<handle>` ergänzen
-3. **Reviews:** `profile/README.md` (Sales/Marketing), `SECURITY.md` (Security Officer)
 
 ## Kontakt
 

@@ -1,7 +1,7 @@
 name: Feature / Anforderung
 description: Neue Funktion oder Änderungswunsch
 title: "[Feature]: "
-labels: ["enhancement"]
+labels: ["feature"]
 body:
   - type: input
     id: repository

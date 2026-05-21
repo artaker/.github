@@ -1,7 +1,7 @@
 name: Zugang & Berechtigungen
 description: GitHub-Org-Zugang, Repo- oder Team-Berechtigung
 title: "[Zugang]: "
-labels: ["access"]
+labels: ["zugang"]
 body:
   - type: markdown
     attributes:
