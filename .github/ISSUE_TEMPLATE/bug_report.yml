@@ -1,5 +1,5 @@
-name: Fehler melden
-description: Einen Fehler oder Defekt dokumentieren
+name: Bug
+description: Unerwartetes Problem oder fehlerhaftes Verhalten
 title: "[Bug]: "
 labels: ["bug"]
 body:

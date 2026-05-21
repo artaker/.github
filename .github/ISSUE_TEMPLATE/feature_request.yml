@@ -1,5 +1,5 @@
-name: Feature / Anforderung
-description: Neue Funktion oder Änderungswunsch
+name: Feature
+description: Anforderung, Idee oder neue Funktionalität
 title: "[Feature]: "
 labels: ["feature"]
 body:
