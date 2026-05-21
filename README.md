@@ -32,7 +32,7 @@ GitHub wendet Dateien aus diesem Repo als **Organisations-Defaults** an, sofern 
 |-------|----------|
 | [`SECURITY.md`](SECURITY.md) | Schwachstellen-Meldungen → compliance@artaker.it |
 | [`SUPPORT.md`](SUPPORT.md) | Hilfe & Doku → docbee@artaker.it |
-| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Verhaltenskodex (DE), Eskalation compliance@artaker.it |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Verweis auf KI-, DSGVO-Richtlinie und Kundenverträge (Christian Semrajc) |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Interner Entwicklungs-Workflow (kein OSS-Fork-Modell) |
 | [`ARTAKER.md`](ARTAKER.md) | GitHub-spezifische Org-Regeln (@artaker.it, Sichtbarkeit, Teams) |
 
