@@ -1,0 +1,38 @@
+name: Task
+description: Konkrete Arbeit oder Aufgabe
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Betroffenes Repository (falls zutreffend)
+      placeholder: z. B. artaker/kundenprojekt-xyz oder „—“
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Kategorie
+      options:
+        - Zugang & Berechtigungen (GitHub)
+        - Infrastruktur / Betrieb
+        - Dokumentation
+        - Prozess / Organisation
+        - Sonstiges
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung der Aufgabe
+      description: Was soll erledigt werden? Bei Zugängen auch GitHub-User, E-Mail und benötigte Repos/Teams angeben.
+    validations:
+      required: true
+  - type: input
+    id: assignee_hint
+    attributes:
+      label: Vorgeschlagener Bearbeiter / Genehmigung durch
+      placeholder: Name oder Rolle (optional)
+    validations:
+      required: false
