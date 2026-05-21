@@ -1,24 +1,93 @@
 # artaker/.github
 
-Organisations-Repository für [Artaker IT Group](https://github.com/artaker) auf GitHub.
+**Community Health Files und Org-Vorlagen** für die GitHub-Organisation [Artaker IT Group](https://github.com/artaker).
 
-Dieses **öffentliche** Repository enthält keine Projektquellen, sondern zentrale Vorgaben und Vorlagen für alle Repositories der Organisation:
+Dieses Repository ist **öffentlich**, enthält aber **keinen Anwendungs- oder Kundencode**. Es dient als zentrale Stelle für Richtlinien, Vorlagen und das öffentliche Org-Profil — analog zu `github/.github`, `microsoft/.github` oder ausführlicher `docker/.github`.
 
-- **Org-Profil:** [`profile/README.md`](profile/README.md) — erscheint auf https://github.com/artaker
-- **Community Health Files:** `SECURITY.md`, `SUPPORT.md`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `ARTAKER.md`
-- **Issue- und PR-Vorlagen:** [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/), [`.github/pull_request_template.md`](.github/pull_request_template.md)
+> **Außenauftritt:** Das Marketing-Profil der Organisation steht in [`profile/README.md`](profile/README.md) und erscheint auf https://github.com/artaker — nicht in dieser Root-`README.md`.
 
-GitHub verwendet diese Dateien als **Org-Defaults**, sofern ein Repository keine eigene Version mitführt. Details: [Default community health files](https://docs.github.com/de/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
+## Wofür dieses Repository da ist
 
-## Hinweise für Maintainer
+| Zielgruppe | Was sie hier finden |
+|------------|---------------------|
+| **Besucher / Partner** | Über das [Org-Profil](profile/README.md) — Marken, Leistungen, Kontakt |
+| **Org-Mitglieder** | Richtlinien (`ARTAKER.md`), Beitragsregeln, Issue/PR-Vorlagen |
+| **Maintainer / Owners** | Übersicht aller Defaults, Setup-Hinweise, `CODEOWNERS` |
 
-- **Labels:** Vor Nutzung der Issue-Templates die in den Templates referenzierten Labels in dieser Organisation anlegen (siehe PR-Beschreibung).
-- **Member-Onboarding:** Geplant in einem separaten privaten Repository `.github-private` (Welle 2).
-- **CODEOWNERS** in diesem Repo gilt nur für `artaker/.github`, nicht org-weit.
+GitHub wendet Dateien aus diesem Repo als **Organisations-Defaults** an, sofern ein Projekt-Repository keine eigene Version hat (Reihenfolge: Repo `.github/` → Repo-Root → `docs/` → Org `.github`). Sie werden **nicht** in Klone der Projekt-Repos kopiert.
+
+[Dokumentation: Default community health files](https://docs.github.com/de/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
+
+## Inhalt dieses Repositories
+
+### Org-Profil (öffentliche Übersicht)
+
+| Pfad | Funktion |
+|------|----------|
+| [`profile/README.md`](profile/README.md) | Erscheint auf der Org-Startseite; Inhalte von [artaker.it](https://www.artaker.it) |
+
+### Community Health Files (Org-Defaults)
+
+| Datei | Funktion |
+|-------|----------|
+| [`SECURITY.md`](SECURITY.md) | Schwachstellen-Meldungen → compliance@artaker.it |
+| [`SUPPORT.md`](SUPPORT.md) | Hilfe & Doku → docbee@artaker.it |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Verhaltenskodex (DE), Eskalation compliance@artaker.it |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Interner Entwicklungs-Workflow (kein OSS-Fork-Modell) |
+| [`ARTAKER.md`](ARTAKER.md) | GitHub-spezifische Org-Regeln (@artaker.it, Sichtbarkeit, Teams) |
+
+### Vorlagen
+
+| Pfad | Funktion |
+|------|----------|
+| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Bug, Feature, Zugang & Berechtigungen |
+| [`.github/pull_request_template.md`](.github/pull_request_template.md) | Standard-PR-Checkliste |
+| [`.github/ISSUE_TEMPLATE/config.yml`](.github/ISSUE_TEMPLATE/config.yml) | Issue-Chooser, Links zu Security/Support |
+
+### Governance (nur dieses Repo)
+
+| Datei | Funktion |
+|-------|----------|
+| [`CODEOWNERS`](CODEOWNERS) | Review-Pflichten **nur** für `artaker/.github` — nicht org-weit |
+
+**Nicht enthalten (bewusst / Welle 2):** `workflow-templates/`, `FUNDING.yml`, `GOVERNANCE.md`, `LICENSE` (Lizenz pro Projekt-Repo).
+
+## Nutzung der Organisation `artaker`
+
+- **Primär:** private Repositories für interne und Kundenprojekte
+- **Kein Open Source** als Standard; öffentliche Repos nur mit Owner-Freigabe ([`ARTAKER.md`](ARTAKER.md))
+- **Sicherheit:** keine Security-Issues — siehe [`SECURITY.md`](SECURITY.md)
+- **Profil-E-Mail:** Mitarbeiter mit `@artaker.it` als primary email auf GitHub
+
+## Maintainer-Checkliste
+
+Vor breiter Nutzung der Issue-Templates in der Org:
+
+1. **Labels** in der Organisation anlegen: `bug`, `enhancement`, `access`
+2. **Einladungen** offener Mitglieder annehmen → [`CODEOWNERS`](CODEOWNERS) mit echten `@artaker/<handle>` ergänzen
+3. **Reviews:** `profile/README.md` (Sales/Marketing), `SECURITY.md` (Security Officer)
+
+Geplant (**Welle 2**):
+
+- Privates Repo `.github-private` mit Member-Onboarding (`profile/README.md` nur für Mitglieder)
+- `workflow-templates/` für einheitliche CI/CD-Starter
+- Repository-Templates mit BU-spezifischen `CODEOWNERS`
+
+## Vergleich mit anderen Organisationen
+
+| Organisation | Root-`README` | Profil-`README` |
+|--------------|---------------|-----------------|
+| [github/.github](https://github.com/github/.github) | ~3 Zeilen, nur Verweis auf Docs | Ausführlich, Community/OSS |
+| [microsoft/.github](https://github.com/microsoft/.github) | ~2 Zeilen | Separates Profil |
+| [docker/.github](https://github.com/docker/.github) | Strukturiert, Was/Wozu/Learn more | Mission & Projekte |
+| **artaker/.github** | Maintainer-Hub (dieses File) | Marketing & Leistungen |
+
+Für **interne IT-Dienstleister** ist ein **schlankes Root-README + ausführliches `profile/README`** üblich und sinnvoll: Wer das Repo direkt öffnet, braucht Betriebsinfos; wer die Org besucht, sieht das Firmenprofil.
 
 ## Kontakt
 
-| Thema | E-Mail |
+| Thema | Kanal |
 |-------|--------|
-| Sicherheit | compliance@artaker.it |
-| Support / Dokumentation | docbee@artaker.it |
+| Sicherheit / Compliance | [compliance@artaker.it](mailto:compliance@artaker.it) |
+| Support / Dokumentation | [docbee@artaker.it](mailto:docbee@artaker.it) |
+| Unternehmen | [artaker.it](https://www.artaker.it) · Heumühlgasse 11, 1040 Wien |
