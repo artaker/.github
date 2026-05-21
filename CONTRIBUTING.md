@@ -24,7 +24,7 @@ Diese Organisation nutzt GitHub für **interne** und **Kundenprojekte**, nicht f
 
 ## CODEOWNERS
 
-`CODEOWNERS` gilt **pro Repository**. Org-weite Muster für neue Repositories sind über Repository-Templates geplant (Welle 2). In `artaker/.github` siehe [CODEOWNERS](CODEOWNERS).
+`CODEOWNERS` gilt **pro Repository** — legen Sie es im jeweiligen Projekt-Repo fest. In `artaker/.github` siehe [CODEOWNERS](CODEOWNERS).
 
 ## Verhalten
 

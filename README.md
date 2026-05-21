@@ -50,7 +50,7 @@ GitHub wendet Dateien aus diesem Repo als **Organisations-Defaults** an, sofern 
 |-------|----------|
 | [`CODEOWNERS`](CODEOWNERS) | Review-Pflichten **nur** für `artaker/.github` — nicht org-weit |
 
-**Nicht enthalten (bewusst / Welle 2):** `workflow-templates/`, `FUNDING.yml`, `GOVERNANCE.md`, `LICENSE` (Lizenz pro Projekt-Repo).
+**Nicht enthalten (bewusst):** `workflow-templates/`, `FUNDING.yml`, `GOVERNANCE.md`, `LICENSE` (Lizenz pro Projekt-Repo).
 
 ## Nutzung der Organisation `artaker`
 
@@ -66,12 +66,6 @@ Vor breiter Nutzung der Issue-Templates in der Org:
 1. **Labels** in der Organisation anlegen: `bug`, `enhancement`, `access`
 2. **Einladungen** offener Mitglieder annehmen → [`CODEOWNERS`](CODEOWNERS) mit echten `@artaker/<handle>` ergänzen
 3. **Reviews:** `profile/README.md` (Sales/Marketing), `SECURITY.md` (Security Officer)
-
-Geplant (**Welle 2**):
-
-- Privates Repo `.github-private` mit Member-Onboarding (`profile/README.md` nur für Mitglieder)
-- `workflow-templates/` für einheitliche CI/CD-Starter
-- Repository-Templates mit BU-spezifischen `CODEOWNERS`
 
 ## Vergleich mit anderen Organisationen
 

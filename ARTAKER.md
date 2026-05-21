@@ -20,17 +20,13 @@ Mitarbeiter mit Org-Zugang verwenden **@artaker.it** als **primary email** im Gi
 
 ## Teams und CODEOWNERS
 
-- GitHub-Teams werden strukturiert angelegt (Rollout in weiteren Wellen)
+- GitHub-Teams werden über die Org-Settings von Owners angelegt und gepflegt
 - `CODEOWNERS` in diesem Repository gilt **nur** für `artaker/.github`
-- Org-weite CODEOWNERS-Defaults für Projekt-Repos: geplant über Repository-Templates (Welle 2)
+- In Projekt-Repositories legen Maintainer `CODEOWNERS` **pro Repo** fest (oder über ein Repository-Template der Organisation)
 
 ## Verifizierte Domains
 
 Auf GitHub verifiziert u. a.: `artaker.it`, `zelmion.com`. Weitere Domains nur nach Abstimmung mit IT/Security.
-
-## Member-Onboarding
-
-Detailliertes Onboarding (Kanäle, interne Links, Checklisten) ist für ein separates Repository **`.github-private`** vorgesehen.
 
 ## Ansprechpartner
 

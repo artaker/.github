@@ -10,7 +10,6 @@ Für Fragen zu Dokumentation, internen Wikis und technischem Support wenden Sie 
 
 - **Neuer Zugang / Berechtigungen:** Issue mit Vorlage „Zugang & Berechtigungen“ im betreffenden Repository oder in [artaker/.github](https://github.com/artaker/.github/issues)
 - **Org-Richtlinien:** [ARTAKER.md](ARTAKER.md)
-- **Onboarding:** Informationen für Mitglieder folgen in `.github-private` (geplant)
 
 ## Sicherheit
 
@@ -18,7 +17,7 @@ Sicherheitsrelevante Meldungen: **nicht** hier, sondern gemäß [SECURITY.md](SE
 
 ## HR und Onboarding
 
-Fragen zu Arbeitsvertrag, Zugängen außerhalb GitHub oder allgemeinem Onboarding: HR / People (interner Ansprechpartner: Christian Semrajc).
+Fragen zu Arbeitsvertrag, Zugängen außerhalb GitHub oder allgemeinem Onboarding: HR / People (interner Ansprechpartner: Christian Semrajc). GitHub-Zugang über Org-Owner.
 
 ## Externe Anfragen
 
