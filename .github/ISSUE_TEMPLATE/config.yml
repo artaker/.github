@@ -6,3 +6,6 @@ contact_links:
   - name: Support / Dokumentation
     url: https://github.com/artaker/.github/blob/main/SUPPORT.md
     about: docbee@artaker.it und interne Kanäle
+  - name: Richtlinien (KI, DSGVO, Kundenverträge)
+    url: https://github.com/artaker/.github/blob/main/CODE_OF_CONDUCT.md
+    about: Christian Semrajc (HR) — aktuelle Fassungen intern, nicht in diesem Repo

@@ -65,4 +65,5 @@ GitHub wendet Dateien aus diesem Repo als **Organisations-Defaults** an, sofern 
 |-------|--------|
 | Sicherheit / Compliance | [compliance@artaker.it](mailto:compliance@artaker.it) |
 | Support / Dokumentation | [docbee@artaker.it](mailto:docbee@artaker.it) |
+| HR / Richtlinien (KI, DSGVO, Kundenverträge) | Christian Semrajc (HR) — [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
 | Unternehmen | [artaker.it](https://www.artaker.it) · Heumühlgasse 11, 1040 Wien |

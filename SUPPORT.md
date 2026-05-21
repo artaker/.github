@@ -15,9 +15,9 @@ Für Fragen zu Dokumentation, internen Wikis und technischem Support wenden Sie 
 
 Sicherheitsrelevante Meldungen: **nicht** hier, sondern gemäß [SECURITY.md](SECURITY.md) an [compliance@artaker.it](mailto:compliance@artaker.it).
 
-## HR und Onboarding
+## HR, Richtlinien und Onboarding
 
-Fragen zu Arbeitsvertrag, Zugängen außerhalb GitHub oder allgemeinem Onboarding: HR / People (interner Ansprechpartner: Christian Semrajc). GitHub-Zugang über Org-Owner.
+Fragen zu **KI-Richtlinie**, **DSGVO**, **Kundenverträgen** sowie Arbeitsvertrag und Onboarding: **Christian Semrajc** (HR) — siehe [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). GitHub-Zugang über Org-Owner bzw. Issue-Vorlage „Task“.
 
 ## Externe Anfragen
 

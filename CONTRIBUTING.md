@@ -7,6 +7,7 @@ Diese Organisation nutzt GitHub für **interne** und **Kundenprojekte**, nicht f
 - GitHub-Profil mit **@artaker.it** als primary email ([ARTAKER.md](ARTAKER.md))
 - Zugang nur über Org-Owner / dokumentierten Onboarding-Prozess
 - Keine Forks von privaten Repositories nach außen ohne Freigabe
+- Einhaltung der internen **KI-**, **DSGVO-Richtlinie** und **Kundenverträge** ([CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)) — bei Fragen **Christian Semrajc** (HR)
 
 ## Workflow
 
@@ -34,4 +35,5 @@ Diese Organisation nutzt GitHub für **interne** und **Kundenprojekte**, nicht f
 
 - Technik / Doku: [SUPPORT.md](SUPPORT.md) — docbee@artaker.it
 - Sicherheit: [SECURITY.md](SECURITY.md) — compliance@artaker.it
+- Richtlinien (KI, DSGVO, Kundenverträge): [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) — Christian Semrajc (HR)
 - GitHub-Org: [ARTAKER.md](ARTAKER.md)

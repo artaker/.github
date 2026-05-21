@@ -16,7 +16,8 @@ Mitarbeiter mit Org-Zugang verwenden **@artaker.it** als **primary email** im Gi
 
 - Nutzen Sie die Issue- und PR-Vorlagen der Organisation, sofern im Repository keine eigenen Templates hinterlegt sind
 - Sicherheitsprobleme: [SECURITY.md](SECURITY.md) — **keine** öffentlichen Security-Issues
-- Verhalten und Eskalation: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- Verhalten, KI-, DSGVO-Richtlinie und Kundenverträge: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) — Ansprechpartner **Christian Semrajc** (HR)
+- Issue-Vorlagen: **Task**, **Bug**, **Feature** (Labels `task`, `bug`, `feature`)
 
 ## Teams und CODEOWNERS
 
@@ -32,6 +33,7 @@ Auf GitHub verifiziert u. a.: `artaker.it`, `zelmion.com`. Weitere Domains nur n
 
 | Thema | Kontakt |
 |-------|---------|
-| Sicherheit / Compliance | compliance@artaker.it |
+| Sicherheit / Compliance | compliance@artaker.it (Raphael Kury, Security Officer) |
 | Support / Doku | docbee@artaker.it |
+| HR / KI-, DSGVO-Richtlinie, Kundenverträge | Christian Semrajc (HR) — siehe [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
 | Org-Owner | GitHub-Org-Owners der Organisation `artaker` |
